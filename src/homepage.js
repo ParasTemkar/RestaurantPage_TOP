@@ -1,9 +1,9 @@
 
-export function createHomePage() {
+// export function createHomePage() {
 
-    const homePage = document.createElement('div');
-    homePage.textContent = "Welcome to the Home Page!";
+//     const homePage = document.createElement('div');
+//     homePage.textContent = "Welcome to the Home Page!";
 
 
-  return homePage;
-}
+//   return homePage;
+// }

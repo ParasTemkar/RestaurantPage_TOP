@@ -1,9 +1,11 @@
-export function createUtilPage() {
+export const main = document.querySelector('#main');
 
-    const utilPage = document.createElement('div');
-    utilPage.textContent = "Util is working!";
+// export function createUtilPage() {
+
+//     const utilPage = document.createElement('div');
+//     utilPage.textContent = "Util is working!";
 
 
-  return utilPage;
-}
+//   return utilPage;
+// }
 
