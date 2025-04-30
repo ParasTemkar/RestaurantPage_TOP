@@ -1,12 +1,12 @@
-import './styles.css'
+import './styles.css';
 
-import { check1 } from "./mainpage.js";
-import { check2 } from "./menupage.js";
-import { check3 } from "./contactpage.js";
-import { check4 } from "./domUtil.js";
+// checking if dom creation is working for each module
+import {createMenuPage} from "./menupage.js";
+import {createContactPage} from "./contactpage.js";
+import {createHomePage} from "./homepage.js";
+import {createUtilPage} from "./domUtil.js";
 
-console.log("Hello World");
-console.log(check1);
-console.log(check2);
-console.log(check3);
-console.log(check4);
+document.body.appendChild(createHomePage());
+document.body.appendChild(createMenuPage());
+document.body.appendChild(createContactPage());
+document.body.appendChild(createUtilPage());

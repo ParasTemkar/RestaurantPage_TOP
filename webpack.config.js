@@ -11,10 +11,10 @@ module.exports = {
   },
   devtool: "eval-source-map",
   devServer: {
-    static: path.resolve(__dirname, "dist"), // Serve files from the "dist" directory
-    watchFiles: ["./src/index.html"],       // Watch for changes in the HTML file
-    port: 8080,                             // Optional: Specify the port (default is 8080)
-    open: true,                             // Automatically open the browser
+    static: path.resolve(__dirname, "dist"), 
+    watchFiles: ["./src/index.html"],       
+    port: 'auto',                             
+    open: true,                             
   },
   plugins: [
     new HtmlWebpackPlugin({

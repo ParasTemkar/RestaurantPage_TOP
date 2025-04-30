@@ -1,1 +1,9 @@
-export const check4 = "domUtil.js check";
+export function createUtilPage() {
+
+    const utilPage = document.createElement('div');
+    utilPage.textContent = "Util is working!";
+
+
+  return utilPage;
+}
+
