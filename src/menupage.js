@@ -1,0 +1,1 @@
+export const check2 = "menu page check";

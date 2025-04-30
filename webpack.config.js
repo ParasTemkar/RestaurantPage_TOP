@@ -11,7 +11,10 @@ module.exports = {
   },
   devtool: "eval-source-map",
   devServer: {
-    watchFiles: ["./src/index.html"],
+    static: path.resolve(__dirname, "dist"), // Serve files from the "dist" directory
+    watchFiles: ["./src/index.html"],       // Watch for changes in the HTML file
+    port: 8080,                             // Optional: Specify the port (default is 8080)
+    open: true,                             // Automatically open the browser
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -31,7 +34,7 @@ module.exports = {
       }, 
       */
 
-		/* if there are images in JS files.
+        /* if there are images in JS files.
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",

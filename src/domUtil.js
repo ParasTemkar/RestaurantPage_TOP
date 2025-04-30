@@ -1,0 +1,1 @@
+export const check4 = "domUtil.js check";
