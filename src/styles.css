@@ -13,7 +13,34 @@
     padding: 20px;
     background-image: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
   }
+
+  header {
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-color: #111;
+    height: 150px;
+  }
+
+  header img {
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #00ffe7;
+    box-shadow: 0 0 10px #00ffe7;
+    object-fit: cover;
+  }
   
+  #heading{
+    width: 100%;
+    text-align: center;
+  }
+
   main {
     max-width: 900px;
     margin: 0 auto;
@@ -27,17 +54,21 @@
   h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #00ffe7;
+    color: #000;
     text-shadow: 0 0 4px #00ffe7;
   }
   
+  h1:hover {
+    color: #00ffe7;
+    text-shadow: 0 0 10px #00ffe7;
+  }
   h2 {
     font-size: 1.5rem;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     color: #33ccff;
   }
-  
+
   ul {
     list-style-type: square;
     padding-left: 20px;
@@ -58,6 +89,8 @@
     color: #00ffe7;
     border-radius: 4px;
     padding: 10px 15px;
+    width: 15%;
+    text-align: center;
     border: 1px solid #00ffe7;
     margin: 5px;
     cursor: pointer;
@@ -174,4 +207,3 @@
   .contact-page button[type="submit"]:hover {
     background-color: #ff4d79;
   }
-  

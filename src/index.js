@@ -14,6 +14,8 @@ function loadContent(loadFunction) {
     main.appendChild(content);
 }
 
+loadContent(createHomePage);
+
 document.querySelector('#homebutton').addEventListener('click', () => {
     loadContent(createHomePage);
 });
@@ -25,3 +27,5 @@ document.querySelector('#menubutton').addEventListener('click', () => {
 document.querySelector('#contactbutton').addEventListener('click', () => {
     loadContent(createContactPage);
 });
+
+

@@ -32,7 +32,7 @@ export function createHomePage() {
       <blockquote>“The Quantum Cheesecake blew my mind.” – Dr. Lin</blockquote>
     </section>
 
-    <button>Explore Our Menu</button>
+    <button class="menubutton">Explore Our Menu</button>
   `;
 
 
