@@ -1,12 +1,13 @@
 body{
     background-color: purple;
 }
-#contactbutton{
+.tabbutton{
     background-color: blue;
     color: white;
     border-radius: 5px;
     padding: 10px;
     border: none;
+    margin: 5px;
 }
 div{
     color: white;
