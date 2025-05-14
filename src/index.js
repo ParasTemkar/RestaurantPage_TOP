@@ -6,7 +6,8 @@ import './styles.css';
 import { createContactPage } from "./contactpage.js";
 import { createMenuPage } from "./menupage.js";
 import { createHomePage } from "./homepage.js";
-import { main } from "./domUtil.js";
+
+const main = document.querySelector('#main');
 
 function loadContent(loadFunction) {
     main.innerHTML = "";
